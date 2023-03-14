@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"thietkedonghothoigianthucds3231\startup_stm32f103xb.o"
+"thietkedonghothoigianthucds3231\i2c-lcd.o"
+"thietkedonghothoigianthucds3231\main.o"
+"thietkedonghothoigianthucds3231\stm32f1xx_it.o"
+"thietkedonghothoigianthucds3231\stm32f1xx_hal_msp.o"
+"thietkedonghothoigianthucds3231\stm32f1xx_hal_gpio_ex.o"
+"thietkedonghothoigianthucds3231\stm32f1xx_hal_i2c.o"
+"thietkedonghothoigianthucds3231\stm32f1xx_hal.o"
+"thietkedonghothoigianthucds3231\stm32f1xx_hal_rcc.o"
+"thietkedonghothoigianthucds3231\stm32f1xx_hal_rcc_ex.o"
+"thietkedonghothoigianthucds3231\stm32f1xx_hal_gpio.o"
+"thietkedonghothoigianthucds3231\stm32f1xx_hal_dma.o"
+"thietkedonghothoigianthucds3231\stm32f1xx_hal_cortex.o"
+"thietkedonghothoigianthucds3231\stm32f1xx_hal_pwr.o"
+"thietkedonghothoigianthucds3231\stm32f1xx_hal_flash.o"
+"thietkedonghothoigianthucds3231\stm32f1xx_hal_flash_ex.o"
+"thietkedonghothoigianthucds3231\stm32f1xx_hal_exti.o"
+"thietkedonghothoigianthucds3231\stm32f1xx_hal_tim.o"
+"thietkedonghothoigianthucds3231\stm32f1xx_hal_tim_ex.o"
+"thietkedonghothoigianthucds3231\system_stm32f1xx.o"
+--strict --scatter "ThietkeDongHothoigianthucDS3231\ThietkeDongHothoigianthucDS3231.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ThietkeDongHothoigianthucDS3231.map" -o ThietkeDongHothoigianthucDS3231\ThietkeDongHothoigianthucDS3231.axf
